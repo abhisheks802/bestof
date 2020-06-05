@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#about-wrapper, #names-wrapper").click(function () {
         $("#about-wrapper, #names-wrapper").fadeToggle();
+        window.location.href="#whole";
     });
     $("#more").click(function () {
        $(".others").fadeToggle(400);
